@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'seravek';
+    src: url('./seravek-medium-webfont.eot');
+    src: url('./seravek-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./seravek-medium-webfont.woff2') format('woff2'),
+         url('./seravek-medium-webfont.woff') format('woff'),
+         url('./seravek-medium-webfont.ttf') format('truetype'),
+         url('./seravek-medium-webfont.svg#seravekmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

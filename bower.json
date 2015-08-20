@@ -1,0 +1,24 @@
+{
+  "name": "MAIII Cobranding",
+  "version": "0.0.0",
+  "authors": [
+    "Charlotte Vanroelen"
+  ],
+  "description": "Nike en durex",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "index.php",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.1",
+    "fallback": "~1.1.6",
+    "bean": "~1.0.14"
+  }
+}

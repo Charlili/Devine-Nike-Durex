@@ -1,0 +1,386 @@
+@import 'base';
+
+//seravek
+//avenir_regular
+//avenir_light
+//avenir_light_italic
+//futura_italic
+html {
+	font-size: $html-font-size;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-size: 1.0em;
+	font-family: $font-text;
+	background: url('../assets/images/bg.png') repeat;
+	margin: 30px;	
+	color: #c0c9dc;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.main-centered {
+
+	position: relative;
+	background: url('../assets/images/bg_buildings.png') repeat-x bottom;
+	background: url('../assets/images/durex.png') no-repeat bottom left, 
+	url('../assets/images/nike.png') no-repeat bottom right, 
+	url('../assets/images/bg_buildings.png') repeat-x bottom;
+	margin: 0 auto;
+	width: 1229px;
+	height: 708px;
+	border: 3px solid #f9ad81;
+	
+}
+
+.box {
+	position: fixed;
+	width: inherit;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+	
+}
+
+.info {
+	color: rgb(158, 213, 135);
+}
+
+.error {
+	color: rgb(249, 129, 129);
+	font-size: 0.8em;
+	font-style: normal;
+	text-transform: lowercase;
+	font-family: 'avenir_light';
+	position: relative;
+	top: -11px;
+	display: none;
+}
+
+.helper {
+	position: absolute;
+	top: 480px;
+	left: 88px;
+	text-align: center;
+	width: 500px;
+}
+
+.error.show {
+	display: inline-block;
+}
+
+.pages {
+
+	z-index: 0;
+	overflow-x:scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: inherit;
+	height:inherit;
+}
+
+section header {
+	display: none;
+}
+.page {
+	
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 1230px;
+	height: 708px;
+	box-sizing: border-box;
+	padding-top: 80px;
+}
+
+.float {
+	float:left;
+	margin: 0;
+	width: 614px;
+}
+
+a {
+
+	color: inherit;
+	text-decoration: none;
+}
+
+p {
+	font-size: 2em;
+}
+
+ul {
+
+	list-style: none;
+}
+
+nav {
+
+	z-index: 1;
+	position: absolute;
+	right: 6px;
+	top: 11px;
+	color: #6b7ba4;
+	font-size: 1.85em;
+	text-transform: uppercase;
+	font-family: 'seravek';
+	font-style: normal;
+
+
+	li {
+		display: inline-block;	
+		padding: 5px 10px;
+	}
+
+	li:hover {
+		background: url('../assets/images/hover.png') no-repeat center;
+	}
+}
+
+.active {
+	color: #b2bbd3;
+}
+
+.blue {
+	color: #4488ff;
+}
+
+h1,h2 {
+	font-family: 'avenir_light';
+}
+
+.yellow {
+	color: #ffe773;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+oblique {
+	font-style: oblique;
+	font-weight: bold;
+}
+#marathon {
+
+	font-family: 'avenir_light';
+
+	h2 {
+		font-size: 2em;
+		text-transform: uppercase;
+		color: #deeaff;
+	}
+
+	p {
+		font-size: 2em;
+		margin: 24px 0;
+		line-height: 20px;
+	}
+
+	.right {
+		position: relative;
+		top: 98px;
+		left: 210px;
+	}
+
+	.btn {
+		left: 158px;
+		top: 30px;
+	}
+
+	
+}
+
+#praktisch {
+	h2 {
+		position: relative;
+		left: -20px;
+		font-style: oblique;
+		font-size: 3.8em;
+		letter-spacing: 4px;
+		text-transform: lowercase;
+		color: #aca6e4;
+
+	}
+
+	ul {
+		margin-bottom: 23px;
+		font-family: 'avenir_regular';
+	}
+	li {
+		font-size: 1.5em;
+		color: #deeaff;
+		letter-spacing: 2.5px;
+		line-height: 33px;
+	}
+
+	label {
+		color: #cdb95c;
+	}
+
+	.btn {
+		float: right;
+		top: 15px;
+		right: 159px;
+		padding-top: 0;
+	}
+
+	.left {
+		position: relative;
+		padding-top: 56px;
+		width: 588px;
+		height: 484px;
+		top: 5px;
+		left: 57px;
+		background: url('../assets/images/bg_praktisch.png') no-repeat center bottom;
+	}
+
+	.right {
+		position: relative;
+		top: 73px;
+		left: 120px;
+	}
+}
+
+#spelen {
+
+	padding: 130px 239px 0;
+
+	.een {
+		margin-bottom: 7px;
+		font-size: 4.35em;
+		color: #d3d2ff;
+	}
+
+	.twee {
+		position: relative;
+		right: 23px;
+		text-align: right;
+		font-size: 1.8em;
+		font-style: oblique;
+		color: #afb8cf;
+	}
+
+	.drie {
+		font-size: 2.05em;
+		color: #66769d;
+		text-align: center;
+	}
+
+	canvas {
+		display: block;
+		background: url('../assets/images/game_placeholder.gif') no-repeat center;
+		margin: 5px auto 12px auto;
+	}
+
+	.vier {
+		margin-top: 57px;
+		margin-bottom: 13px;
+		font-size: 2.2em;
+		color: #fff;
+		text-align: center;
+
+		span {
+			color: #aa80cb;
+		}
+	}
+
+	.vijf {
+		text-align: left;
+		color: #53336d;
+		font-size: 1.9em;
+		font-style: oblique;
+	}
+
+	form {
+		margin: 0 auto;
+	}
+
+	label {
+		display: inline-block;
+		color: #bbc2d4;
+		margin-right: 39px;
+		width: 378px;
+	}
+
+	.score {
+		width: 134px;
+	}
+
+	input[type='text'] {
+		font-style: oblique;
+		font-size: 0.9em;
+		width: inherit;
+	}
+
+	input.btn {
+		display: inline-block;
+		top: -5px;
+		padding:0;
+	}
+	.delen {
+		position: absolute;
+		right: 115px;
+		bottom: 108px;
+	}
+
+}
+
+video {
+	position: relative;
+	left: -107px;
+}
+
+.btn,input.btn {
+	display: block;
+	position: relative;
+	width: 129px;
+	height: 38px;
+	border: 3px solid #ffe773;
+	border-radius: 19px;
+	color: #ffe773;
+	font-size: 2.0em;
+	text-align: center;
+	vertical-align: center;
+	box-sizing: border-box;
+	padding-top: 7px;
+	z-index: 2;
+	font-family: 'futura_italic';
+
+}
+
+.btn:hover {
+	color: #fff;
+	border: 3px solid #fff;
+	cursor: pointer;
+}
+
+label {
+	display: block;
+	text-align: right;
+	font-size: 1.8em;
+	width: 462px;
+	height: 52px;
+	padding-right: 19px;
+	margin-bottom: 20px;
+	//font-style: oblique;
+	font-family: 'avenir_light_italic';
+
+}
+input[type='text'] {
+	padding: 0 20px;
+}
+input {
+	display: block;
+	color: #a7b9e3;
+	position: relative;
+	top: -6px;
+	z-index: -1;
+	width: 462px;
+	height: 36px;
+	background-image: url('../assets/images/input.png');
+	border: none;
+}

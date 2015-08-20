@@ -1,0 +1,19 @@
+@mixin center(){
+	margin: 0 auto;
+}
+@mixin border-box-default(){
+	html {
+		@include box-sizing(border-box);
+	}
+
+	*,
+	*:after,
+	*:before {
+		@include box-sizing(border-box);
+	}
+}
+
+@mixin full-bg($img){
+	background: url('../assets/img/' + $img) no-repeat;
+	background-size: cover; 
+}

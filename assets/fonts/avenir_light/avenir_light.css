@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'avenir_light';
+    src: url('./AvenirNextLTPro-UltLtCn.eot');
+    src: url('./AvenirNextLTPro-UltLtCn.eot?#iefix') format('embedded-opentype'),
+         url('./AvenirNextLTPro-UltLtCn.woff') format('woff'),
+         url('./AvenirNextLTPro-UltLtCn.ttf') format('truetype'),
+         url('./AvenirNextLTPro-UltLtCn.svg#AvenirNextLTPro-UltLtCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

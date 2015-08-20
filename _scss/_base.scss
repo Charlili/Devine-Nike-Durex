@@ -1,0 +1,10 @@
+@import 'compass/reset';
+@import 'compass/css3';
+
+@import 'mixins';
+//@import 'fonts';
+
+$html-font-size: 62.5%;
+$font-text: 'avenir_light', Helvetica, sans-serif;
+
+@include border-box-default;

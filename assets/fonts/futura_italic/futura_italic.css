@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'futura_italic';
+    src: url('./futura-mediumitalic-webfont.eot');
+    src: url('./futura-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./futura-mediumitalic-webfont.woff2') format('woff2'),
+         url('./futura-mediumitalic-webfont.woff') format('woff'),
+         url('./futura-mediumitalic-webfont.ttf') format('truetype'),
+         url('./futura-mediumitalic-webfont.svg#futuramedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

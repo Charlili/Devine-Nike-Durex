@@ -1,0 +1,7 @@
+.sass-cache
+node_modules
+Gulp.command
+js/vendor/paper/examples
+js/vendor/easeljs/_assets
+js/vendor/bean/tests
+js/vendor/webfontloader/lib/webfontloader
